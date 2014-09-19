@@ -1,0 +1,186 @@
+{
+    "force": {
+        "1": [
+            "Security Personnel",
+            "Hitmen",
+            "Militia Unit"
+        ],
+        "2": [
+            "Heavy Drop Assets",
+            "Elite Skirmishers",
+            "Hardened Personnel",
+            "Guerilla Populace"
+        ],
+        "3": [
+            "Zealots",
+            "Cunning Trap",
+            "Counterintel Unit"
+        ],
+        "4": [
+            "Beachhead Landers",
+            "Extended Theater",
+            "Strike Fleet",
+            "Postech Infantry"
+        ],
+        "5": [
+            "Blockade Fleet",
+            "Pretech Logistics",
+            "Psychic Assassins"
+        ],
+        "6": [
+            "Pretech Infantry",
+            "Planetary Defenses",
+            "Gravtank Formation"
+        ],
+        "7": [
+            "Deep Strike Landers",
+            "Integral Protocols",
+            "Space Marines"
+        ],
+        "8": [
+            "Capital Fleet"
+        ]
+    },
+    "tags": [
+        "Colonists",
+        "Deep Rooted",
+        "Eugenics Cult",
+        "Exchange Consulate",
+        "Fanatical",
+        "Imperialists",
+        "Machiavellian",
+        "Mercenary Group",
+        "Perimeter Agency",
+        "Pirates",
+        "Planetary Government",
+        "Plutocratic",
+        "Preceptor Archive",
+        "Psychic Academy",
+        "Savage",
+        "Scavengers",
+        "Secretive",
+        "Technical Expertise",
+        "Theocratic",
+        "Warlike"
+    ],
+    "major": {
+        "hit_points": 29,
+        "assets": [
+            2,
+            2
+        ],
+        "stats": [
+            6,
+            5,
+            3
+        ]
+    },
+    "minor": {
+        "hit_points": 15,
+        "assets": [
+            1,
+            1
+        ],
+        "stats": [
+            4,
+            3,
+            1
+        ]
+    },
+    "hegemon": {
+        "hit_points": 49,
+        "assets": [
+            4,
+            4
+        ],
+        "stats": [
+            8,
+            7,
+            5
+        ]
+    },
+    "wealth": {
+        "1": [
+            "Franchise",
+            "Harvesters",
+            "Local Investments"
+        ],
+        "2": [
+            "Freighter Contract",
+            "Lawyers",
+            "Union Toughs",
+            "Surveyors"
+        ],
+        "3": [
+            "Postech Industry",
+            "Laboratory",
+            "Mercenaries"
+        ],
+        "4": [
+            "Shipping Combine",
+            "Monopoly",
+            "Medical Center",
+            "Bank"
+        ],
+        "5": [
+            "Marketers",
+            "Pretech Researchers",
+            "Blockade Runners"
+        ],
+        "6": [
+            "Venture Capital",
+            "R&D Department",
+            "Commodities Broker"
+        ],
+        "7": [
+            "Pretech Manufactory",
+            "Hostile Takeover",
+            "Transit Web"
+        ],
+        "8": [
+            "Scavenger Fleet"
+        ]
+    },
+    "cunning": {
+        "1": [
+            "Smugglers",
+            "Informers",
+            "False Front"
+        ],
+        "2": [
+            "Lobbyists",
+            "Saboteurs",
+            "Blackmail",
+            "Seductress"
+        ],
+        "3": [
+            "Cyberninjas",
+            "Stealth",
+            "Covert Shipping"
+        ],
+        "4": [
+            "Party Machine",
+            "Vanguard Cadres",
+            "Tripwire Cells",
+            "Seditionists"
+        ],
+        "5": [
+            "Organization Moles",
+            "Cracked Comms",
+            "Boltholes"
+        ],
+        "6": [
+            "Transport Lockdown",
+            "Covert Transit Net",
+            "Demagogue"
+        ],
+        "7": [
+            "Popular Movement",
+            "Book of Secrets",
+            "Treachery"
+        ],
+        "8": [
+            "Panopticon Matrix"
+        ]
+    }
+}
