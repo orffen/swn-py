@@ -1,0 +1,379 @@
+{
+    "tech_level": [
+        "TL1",
+        "TL2",
+        "TL3",
+        "TL4"
+    ],
+    "trade_item": {
+        "TL1": [
+            "Basic Ore",
+            "Crystals and Gems",
+            "Precious Metals",
+            "Spices",
+            "Textiles",
+            "Uncommon Ore",
+            "Uncommon Raw Materials",
+            "Wood"
+        ],
+        "TL2": [
+            "Basic Ore",
+            "Crystals and Gems",
+            "Precious Metals",
+            "Spices",
+            "Textiles",
+            "Uncommon Ore",
+            "Uncommon Raw Materials",
+            "Wood",
+            "Basic Raw Materials",
+            "Luxury Goods",
+            "Illegal Luxuries"
+        ],
+        "TL3": [
+            "Basic Ore",
+            "Crystals and Gems",
+            "Precious Metals",
+            "Spices",
+            "Textiles",
+            "Uncommon Ore",
+            "Uncommon Raw Materials",
+            "Wood",
+            "Basic Raw Materials",
+            "Luxury Goods",
+            "Illegal Luxuries",
+            "Basic Electronics",
+            "Basic Machine Parts",
+            "Basic Manufactured Goods",
+            "Basic Consumables",
+            "Biochemicals",
+            "Medical Supplies",
+            "Petrochemicals",
+            "Pharmaceuticals",
+            "Radioactives",
+            "Vehicles",
+            "Illegal Biochemicals",
+            "Illegal Drugs",
+            "Illegal Weapons"
+        ],
+        "TL4": [
+            "Basic Ore",
+            "Crystals and Gems",
+            "Precious Metals",
+            "Spices",
+            "Textiles",
+            "Uncommon Ore",
+            "Uncommon Raw Materials",
+            "Wood",
+            "Basic Raw Materials",
+            "Luxury Goods",
+            "Illegal Luxuries",
+            "Basic Electronics",
+            "Basic Machine Parts",
+            "Basic Manufactured Goods",
+            "Basic Consumables",
+            "Biochemicals",
+            "Medical Supplies",
+            "Petrochemicals",
+            "Pharmaceuticals",
+            "Radioactives",
+            "Vehicles",
+            "Illegal Biochemicals",
+            "Illegal Drugs",
+            "Illegal Weapons",
+            "Advanced Electronics",
+            "Advanced Machine Parts",
+            "Advanced Manufactured Goods",
+            "Advanced Weapons",
+            "Advanced Vehicles",
+            "Cybernetics",
+            "Luxury Consumables",
+            "Polymers",
+            "Robotics",
+            "Illegal Cybernetics",
+            "Pretech Parts",
+            "Maltech Parts"
+        ],
+        "TL5": [
+            "Basic Ore",
+            "Crystals and Gems",
+            "Precious Metals",
+            "Spices",
+            "Textiles",
+            "Uncommon Ore",
+            "Uncommon Raw Materials",
+            "Wood",
+            "Basic Raw Materials",
+            "Luxury Goods",
+            "Illegal Luxuries",
+            "Basic Electronics",
+            "Basic Machine Parts",
+            "Basic Manufactured Goods",
+            "Basic Consumables",
+            "Biochemicals",
+            "Medical Supplies",
+            "Petrochemicals",
+            "Pharmaceuticals",
+            "Radioactives",
+            "Vehicles",
+            "Illegal Biochemicals",
+            "Illegal Drugs",
+            "Illegal Weapons",
+            "Pretech Parts",
+            "Maltech Parts"
+        ]
+    },
+    "item_detail": {
+        "Basic Electronics": {
+            "base_price": 100,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Basic Machine Parts": {
+            "base_price": 100,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Basic Manufactured Goods": {
+            "base_price": 100,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Basic Raw Materials": {
+            "base_price": 50,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Basic Consumables": {
+            "base_price": 20,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Basic Ore": {
+            "base_price": 10,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Advanced Electronics": {
+            "base_price": 1000,
+            "tons": "1d6*5",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Advanced Machine Parts": {
+            "base_price": 750,
+            "tons": "1d6*5",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Advanced Manufactured Goods": {
+            "base_price": 1000,
+            "tons": "1d6*5",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Advanced Weapons": {
+            "base_price": 1500,
+            "tons": "1d6*5",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Advanced Vehicles": {
+            "base_price": 1800,
+            "tons": "1d6*5",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Biochemicals": {
+            "base_price": 500,
+            "tons": "1d6*5",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Crystals and Gems": {
+            "base_price": 200,
+            "tons": "1d6*5",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Cybernetics": {
+            "base_price": 2500,
+            "tons": "1d6",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Luxury Consumables": {
+            "base_price": 200,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Luxury Goods": {
+            "base_price": 2000,
+            "tons": "1d6",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Medical Supplies": {
+            "base_price": 500,
+            "tons": "1d6*5",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Petrochemicals": {
+            "base_price": 100,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Pharmaceuticals": {
+            "base_price": 1000,
+            "tons": "1d6",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Polymers": {
+            "base_price": 70,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Precious Metals": {
+            "base_price": 500,
+            "tons": "1d6",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Radioactives": {
+            "base_price": 10000,
+            "tons": "1d6",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Robotics": {
+            "base_price": 4000,
+            "tons": "1d6*5",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Spices": {
+            "base_price": 60,
+            "tons": "1d6*5",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Textiles": {
+            "base_price": 30,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Uncommon Ore": {
+            "base_price": 50,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Uncommon Raw Materials": {
+            "base_price": 200,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Wood": {
+            "base_price": 10,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Vehicles": {
+            "base_price": 150,
+            "tons": "1d6*10",
+            "wanted_value": "1d100+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d20"
+            },
+        "Illegal Biochemicals": {
+            "base_price": 500,
+            "tons": "1d6*5",
+            "wanted_value": "1d200+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d50"
+            },
+        "Illegal Cybernetics": {
+            "base_price": 2500,
+            "tons": "1d6",
+            "wanted_value": "1d200+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d50"
+            },
+        "Illegal Drugs": {
+            "base_price": 1000,
+            "tons": "1d6",
+            "wanted_value": "1d200+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d50"
+            },
+        "Illegal Luxuries": {
+            "base_price": 500,
+            "tons": "1d6",
+            "wanted_value": "1d200+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d50"
+            },
+        "Illegal Weapons": {
+            "base_price": 1500,
+            "tons": "1d6*5",
+            "wanted_value": "1d200+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d50"
+            },
+        "Pretech Parts": {
+            "base_price": 500,
+            "tons": "1d6*5",
+            "wanted_value": "1d200+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d50"
+            },
+        "Maltech Parts": {
+            "base_price": 500,
+            "tons": "1d6*5",
+            "wanted_value": "1d200+150",
+            "unwanted_value": "1d50",
+            "standard_value": "1d50"
+            }
+    }
+}
