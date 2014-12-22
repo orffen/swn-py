@@ -49,7 +49,7 @@ class Trade:
     - evolution (string)
 
     """
-    def __init__(self, techlevel):
+    def __init__(self, techlevel="TL4"):
         with open("tables/trade.json", "r") as file:
             trade_goods = json.load(file)
             self.selling = []

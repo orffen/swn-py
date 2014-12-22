@@ -40,6 +40,7 @@ from npc import NPC
 from political_party import PoliticalParty
 from religion import Religion
 from society import Society
+from trade import Trade
 from world import World
 import random
 
@@ -72,4 +73,5 @@ if __name__ == "__main__":
     print("Adventure Seeds:")
     for i in range(3):
         print(Adventure())
+    print(Trade())
 
