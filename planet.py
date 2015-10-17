@@ -39,7 +39,6 @@ from heresy import Heresy
 from npc import NPC
 from political_party import PoliticalParty
 from religion import Religion
-from society import Society
 from trade import Trade
 from world import World
 import random
@@ -47,7 +46,6 @@ import random
 if __name__ == "__main__":
     print(World())
     print("Predominant architectural feature: {}".format(Architecture()))
-    print(Society())
     print("---")
     for i in range(random.choice([2, 3])):
         print("Animal:\n{}\n".format(Animal()))
@@ -74,4 +72,3 @@ if __name__ == "__main__":
     for i in range(3):
         print(Adventure())
     print(Trade())
-
