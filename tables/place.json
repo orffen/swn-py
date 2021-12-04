@@ -55,7 +55,7 @@
         "Cache of precious goods",
         "Stock of valuable weaponry"
     ],
-    "civilized_ongoings": [
+    "civilized_ongoing": [
         "Local festival going on",
         "Angry street protests",
         "Minor fire or other disorder",
@@ -77,7 +77,7 @@
         "Local thugs swaggering around",
         "Aerial light display"
     ],
-    "wilderness_ongoings": [
+    "wilderness_ongoing": [
         "Bandits have moved in",
         "Flooding swept through",
         "Part of it has collapsed",

@@ -53,8 +53,8 @@ class Place:
             self.possible_danger = str(
                 random.choice(place["hazard"][self.hazard][1]))
             self.reward = str(random.choice(place["reward"]))
-            self.civilized_ongoings = str(random.choice(place["civilized_ongoings"]))
-            self.wilderness_ongoings = str(random.choice(place["wilderness_ongoings"]))
+            self.civilized_ongoings = str(random.choice(place["civilized_ongoing"]))
+            self.wilderness_ongoings = str(random.choice(place["wilderness_ongoing"]))
 
     def __str__(self):
         r = [
