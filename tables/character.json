@@ -1,0 +1,42 @@
+{
+    "character": {
+        "Expert (Smart)": ["10 (+0)", "12 (+0)", "11 (+0)", "14 (+1)", "7 (-1)", "9 (+0)", 2, "+0"],
+        "Expert (Smooth)": ["7 (-1)", "9 (+0)", "10 (+0)", "12 (+0)", "11 (+0)", "14 (+1)", 0, "+0"],
+        "Expert (Nimble)": ["10 (+0)", "14 (+1)", "12 (+0)", "11 (+0)", "9 (+0)", "7 (-1)", 0, "+0"],
+        "Warrior (Melee)": ["14 (+1)", "9 (+0)", "12 (+0)", "7 (-1)", "10 (+0)", "11 (+0)", 2, "+1"],
+        "Warrior (Ranged)": ["9 (+0)", "14 (+1)", "12 (+0)", "10 (+0)", "7 (-1)", "11 (+0)", 2 "+1"],
+        "Warrior (Leader)": ["7 (-1)", "10 (+0)", "9 (+0)", "11 (+0)", "12 (+0)", "14 (+1)", 2, "+1"],
+        "Psychic (Seer)": ["9 (+0)", "11 (+0)", "12 (+0)", "10 (+0)", "14 (+1)", "7 (-1)", 0, "+0"],
+        "Psychic (Adept)": ["12 (+0)", "10 (+0)", "14 (+1)", "9 (+0)", "11 (+0)", "7 (-1)", 1, "+0"]
+    },
+    "background": {
+        "Barbarian": ["Survive-0", "Notice-0", "Any Combat-0"],
+        "Clergy": ["Talk-0", "Perform-0", "Know-0",],
+        "Courtesan": ["Perform-0", "Notice-0", "Connect-0"],
+        "Criminal": ["Connect-0", "Sneak-0", "Talk-0",],
+        "Dilettante": ["Connect-0", "Know-0", "Talk-0",],
+        "Entertainer": ["Perform-0", "Talk-0", "Connect-0"],
+        "Merchant": ["Trade-0", "Talk-0", "Connect-0",],
+        "Noble": ["Lead-0", "Connect-0", "Administer-0",],
+        "Official": ["Administer-0", "Talk-0", "Connect-0"],
+        "Peasant": ["Exert-0", "Sneak-0", "Survive-0",],
+        "Physician": ["Heal-0", "Know-0", "Notice-0",],
+        "Pilot": ["Pilot-0", "Fix-0", "Shoot or Trade-0",],
+        "Politician": ["Talk-0", "Lead-0", "Connect-0",],
+        "Scholar": ["Know-0", "Administer-0", "Connect-0",],
+        "Soldier": ["Any Combat-0", "Exert-0", "Survive-0"],
+        "Spacer": ["Fix-0", "Pilot-0", "Program-0",],
+        "Technician": ["Fix-0", "Notice-0", "Exert-0",],
+        "Thug": ["Any Combat-0", "Talk-0", "Connect-0",],
+        "Vagabond": ["Notice-0", "Sneak-0", "Survive-0"],
+        "Worker": ["Connect-0", "Exert-0", "Work-0"],
+    },
+    "psychic_skill": [
+        "Biopsionics-0, the art of healing and metamorphosis", 
+        "Metapsionics-0, the art of manipulating psychic power", 
+        "Precognition-0, the art of sensing the future", 
+        "Telekinesis-0, the art of controlling kinetic energy", 
+        "Telepathy-0, the art of reading and influencing thought", 
+        "Teleportation-0, the art of instant translocation"
+    ]
+}
