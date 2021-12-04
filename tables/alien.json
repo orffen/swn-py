@@ -26,15 +26,27 @@
         "Monarchic",
         "Tribal",
         "Oligarchic",
-        "Multipolar",
-        "Multipolar"
+        "Multipolar Competitive",
+        "Multipolar Competitive",
+        "Multipolar Cooperative",
+        "Multipolar Cooperative"
     ],
-    "body_type": [
-        "Humanlike",
+    "body_trait": [
         "Avian",
+        "Bat-like",
+        "Pterodactylian",
         "Reptilian",
+        "Amphibian",
+        "Draconic",
         "Insectile",
-        "Exotic",
+        "Beetle-like",
+        "Spiderish",
+        "Wasp-like",
+        "Mammalian, furred",
+        "Mammalian, bare-skinned",
+        "Exotic, composed of some novel substance",
+        "Hybrid",
+        "Hybrid",
         "Hybrid"
     ]
 }

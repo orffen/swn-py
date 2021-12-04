@@ -3,7 +3,7 @@
 # alien.py
 # SWN Alien Generator
 #
-# Copyright (c) 2014 Steve Simenic <orffen@orffenspace.com>
+# Copyright (c) 2021 Steve Simenic <orffen@orffenspace.com>
 #
 # This file is part of the SWN Toolbox.
 #
@@ -35,15 +35,24 @@ class Alien:
     This class generates an alien race from tables/alien.json,
     which has the following attributes:
     
-    - body_type (string)
+    - body_trait (string)
     - social_structure (string)
     - lenses (array)
 
     """
     def __init__(self):
         with open("tables/alien.json", "r") as file:
-            alien                 = json.load(file)
-            self.body_type        = str(random.choice(alien["body_type"]))
+            alien = json.load(file)
+            self.body_trait = str(random.choice(alien["body_trait"]))
+            if self.body_trait == "Hybrid":
+                num_body_traits = random.choice([2, 2, 3])
+                temp_body_traits = []
+                while len(temp_body_traits) < num_body_traits:
+                    new_body_trait = str(random.choice(alien["body_trait"]))
+                    if new_body_trait != "Hybrid":
+                        if new_body_trait not in temp_body_traits:
+                            temp_body_traits.append(new_body_trait)
+                self.body_trait = "/".join(temp_body_traits)
             self.social_structure = str(
                     random.choice(alien["social_structure"]))
             self.lenses = []
@@ -52,9 +61,9 @@ class Alien:
 
     def __str__(self):
         r = [
-                "Body type: "        + self.body_type,
+                "Body type: " + self.body_trait,
                 "Social Structure: " + self.social_structure,
-                "Lenses: "           + ", ".join(self.lenses)
+                "Lenses: " + ", ".join(self.lenses)
         ]
         return "\n".join(r)
 
