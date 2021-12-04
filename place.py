@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 #
-# room.py
-# SWN Room Generator
+# place.py
+# SWN Place Generator
 #
-# Copyright (c) 2014 Steve Simenic <orffen@orffenspace.com>
+# Copyright (c) 2021 Steve Simenic <orffen@orffenspace.com>
 #
 # This file is part of the SWN Toolbox.
 #
@@ -30,23 +30,42 @@ import json
 import random
 import sys
 
-class Room:
+class Place:
     """
-    This class generates a room from tables/room.json,
+    This class generates a place from tables/place.json,
     which has the following attributes:
 
-    - room (string)
-    - features (string)
+    - hazard (string)
+    - specific_example (string)
+    - possible_danger (string)
+    - reward (string)
+    - civilized_ongoings (string)
+    - wilderness_ongoings (string)
 
     """
     def __init__(self):
-        with open("tables/room.json", "r") as file:
-            r = json.load(file)
-            self.room     = str(random.choice(list(r.keys())))
-            self.features = str(r[self.room])
+        with open("tables/place.json", "r") as file:
+            place = json.load(file)
+            self.hazard = str(
+                random.choice(list(place["hazard"].keys())))
+            self.specific_example = str(
+                random.choice(place["hazard"][self.hazard][0]))
+            self.possible_danger = str(
+                random.choice(place["hazard"][self.hazard][1]))
+            self.reward = str(random.choice(place["reward"]))
+            self.civilized_ongoings = str(random.choice(place["civilized_ongoings"]))
+            self.wilderness_ongoings = str(random.choice(place["wilderness_ongoings"]))
 
     def __str__(self):
-        return self.room + ": " + self.features
+        r = [
+            "Hazard: " + self.hazard,
+            "Specific Example: " + self.specific_example,
+            "Possible Danger: " + self.possible_danger,
+            "Reward: " + self.reward,
+            "Civilized Ongoings: " + self.civilized_ongoings,
+            "Wilderness Ongoings: " + self.wilderness_ongoings
+        ]
+        return "\n".join(r)
 
 
 if __name__ == "__main__":
@@ -57,5 +76,4 @@ if __name__ == "__main__":
     for i in range(times):
         if i != 0:
             print("-----------+-+-+-----------")
-        print(Room())
-
+        print(Place())
