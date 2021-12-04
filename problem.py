@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-# adventure.py
-# SWN Adventure Generator
 #
-# Copyright (c) 2014 Steve Simenic <orffen@orffenspace.com>
+# problem.py
+# SWN Problem Generator
+#
+# Copyright (c) 2021 Steve Simenic <orffen@orffenspace.com>
 #
 # This file is part of the SWN Toolbox.
 #
@@ -29,19 +30,39 @@ import json
 import random
 import sys
 
-class Adventure:
+class Problem:
     """
-    This class generates an adventure seed from tables/adventure.json,
-    which can be accessed through the "seed" attribute.
+    This class generates a problem from tables/problem.json,
+    which has the following attributes:
+
+    - conflict_type (string)
+    - situation (string)
+    - focus (string)
+    - restraint (string)
+    - twist (string)
 
     """
     def __init__(self):
-        with open("tables/adventure.json", "r") as file:
-            adventure = json.load(file)
-            self.seed = str(random.choice(adventure["seed"]))
+        with open("tables/problem.json", "r") as file:
+            problem = json.load(file)
+            self.conflict_type = str(
+                random.choice(list(problem["conflict_type"].keys())))
+            self.situation = str(
+                random.choice(problem["conflict_type"][self.conflict_type][0]))
+            self.focus = str(
+                random.choice(problem["conflict_type"][self.conflict_type][1]))
+            self.restraint = str(random.choice(problem["restraint"]))
+            self.twist = str(random.choice(problem["twist"]))
 
     def __str__(self):
-        return self.seed
+        r = [
+            "Conflict Type: " + self.conflict_type,
+            "Situation: " + self.situation,
+            "Focus: " + self.focus,
+            "Restraint: " + self.restraint,
+            "Twist: " + self.twist
+        ]
+        return "\n".join(r)
 
 
 if __name__ == "__main__":
@@ -52,5 +73,4 @@ if __name__ == "__main__":
     for i in range(times):
         if i != 0:
             print("-----------+-+-+-----------")
-        print(Adventure())
-
+        print(Problem())
